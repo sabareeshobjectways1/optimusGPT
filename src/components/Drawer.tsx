@@ -44,6 +44,15 @@ export function Drawer({ isOpen, onClose }: DrawerProps) {
               <ModelSelector />
             </div>
 
+            <div className="space-y-4">
+             
+              
+              <ThemeToggle />
+
+             
+
+             
+            </div>
           </div>
 
           <div className="mt-auto pt-6 border-t border-gray-200 dark:border-gray-700">
